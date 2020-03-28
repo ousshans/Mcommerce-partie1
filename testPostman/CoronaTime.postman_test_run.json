@@ -1,0 +1,150 @@
+{
+	"id": "fee1ab54-2807-4880-9ef1-ded0ebf2c943",
+	"name": "CoronaTime",
+	"timestamp": "2020-03-28T15:10:41.088Z",
+	"collection_id": "ea63a3b5-5dc0-40a6-b2fd-aa4fd1b189b0",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3088e14c-3db6-41d4-aedc-a910aea90dd7",
+			"name": "Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				12
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "216abf66-da43-49dc-ab71-57cb0f346a98",
+			"name": "/Produits/{id",
+			"url": "http://localhost:9090/Produits/3",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				10
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6cac42f6-5555-485e-bf93-0df470f7f8f8",
+			"name": "/Produits",
+			"url": "http://localhost:9090/Produits",
+			"time": 83,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				83
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4f7d435d-1f62-4a3d-8a6f-c7fc884fe386",
+			"name": "Delete Produit",
+			"url": "http://localhost:9090/Produits/2",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				27
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d8c7910c-13de-45ef-be4f-23b673a05645",
+			"name": "AdminProduits",
+			"url": "http://localhost:9090/AdminProduits",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				10
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "43cad60b-5033-4e66-bd7b-ada0043be4d9",
+			"name": "trierProduitsParOrdreAlphabetique",
+			"url": "http://localhost:9090/trierProduitsParOrdreAlphabetique",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				12
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 154,
+	"collection": {
+		"requests": [
+			{
+				"id": "3088e14c-3db6-41d4-aedc-a910aea90dd7",
+				"method": "GET"
+			},
+			{
+				"id": "216abf66-da43-49dc-ab71-57cb0f346a98",
+				"method": "GET"
+			},
+			{
+				"id": "6cac42f6-5555-485e-bf93-0df470f7f8f8",
+				"method": "POST"
+			},
+			{
+				"id": "4f7d435d-1f62-4a3d-8a6f-c7fc884fe386",
+				"method": "DELETE"
+			},
+			{
+				"id": "d8c7910c-13de-45ef-be4f-23b673a05645",
+				"method": "GET"
+			},
+			{
+				"id": "43cad60b-5033-4e66-bd7b-ada0043be4d9",
+				"method": "GET"
+			}
+		]
+	}
+}
